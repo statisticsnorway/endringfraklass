@@ -24,9 +24,11 @@
  behold_format_data      ==> 1 hvis datasett for omkodingsformat skal beholdes. Standard er 1.
  behold_utds_dubletter   ==> 1 hvis datasett med dubletter skal beholdes. Standard er 0.
  slette_midl             ==> 1 hvis midlertidige datasett ønskes slettet
- max_runder              ==> Makismalt antall runder det skal sjekkes for gjengangere. Standard er 5 og det vil normalt være nok
+ max_runder              ==> Maksimalt antall runder det skal sjekkes for gjengangere. Standard er 5 og det vil normalt være nok
 
 Endringer:
+ 2019.10.03 KrL Sørget for at klassifikasjoner som ennå ikke er tatt i bruk kan hentes ut (lagt til &includeFuture=true i kallet i url)
+ 2024.05.15 KrL En endring i Api'et gjør at standard uttrekkstype er endret fra csv til json. Har lagt inn at csv fortsatt blir uttrekkstype
 */
 
 
@@ -74,7 +76,7 @@ Endringer:
   %put NOTE: Til_dato ikke oppgitt, &til_dato er valgt;
  %end;
 
-filename endr url "&adresse./classifications/&klass_katnr./changes?from=&fra_dato.%nrstr(&to)=&til_dato.%nrstr(&csvSeparator)=;%nrstr(&)language=&klass_spraak";
+filename endr url "&adresse./classifications/&klass_katnr./changes.csv?from=&fra_dato.%nrstr(&to)=&til_dato.%nrstr(&csvSeparator)=;%nrstr(&)language=&klass_spraak%nrstr(&)includeFuture=true";
 
 %let endringer_funnet=0;
 %let blank_fra_kode=0;
