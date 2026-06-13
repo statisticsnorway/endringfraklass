@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_endringfraklass_gjengangere",
+  "source_file": "EndringFraKlass.sas",
+  "source_blob_sha": "4c4375e6919fbac8622c0443a9316c1a677528dd",
+  "source_commit": "ba8f635ff4c49308ecfee5d4224c4c2aba3ff672",
+  "tier": "real_macro_caller",
+  "notes": "Caller for %EndringFraKlass with a change list where a code changes twice in the period (1567->1539->5061). Exercises the PROC SQL self-join + DATA-step UPDATE loop that collapses chained changes; list_gjengangere=1 prints the round. Only edit vs upstream: live API filename swapped for ./input/changes.csv. The bundle is self-contained: autoexec.sas writes the sample list (same rows as input/changes.csv) to the working directory, which the macro's FILENAME/INFILE then reads."
+}

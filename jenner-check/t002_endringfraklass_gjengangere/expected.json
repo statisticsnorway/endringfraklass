@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-06-14T02:07:41+07:00",
+  "_captured_run_id": "r_019ec263465b72918b066c9c7edda9e3",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 6 rows from endr.",
+    "NOTE: Table endringer_gjengangere created.",
+    "NOTE: Read 1 rows from endringer_gjengangere.",
+    "NOTE: CNTLIN: Loaded 6 format entries from work.Klass_endringer_format"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

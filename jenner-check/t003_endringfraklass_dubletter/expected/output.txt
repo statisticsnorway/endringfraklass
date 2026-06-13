@@ -1,0 +1,24 @@
+                                   Fra-kode er blank i katalog 131 for perioden  - .                                    
+
+No observations in dataset.
+
+                                   Til-kode er blank i katalog 131 for perioden  - .                                    
+
+No observations in dataset.
+
+            Dubletter i fra_koden for endringer i katalog 131 for perioden  - . Omkodingsformat lages ikke.             
+
+  Obs  FRA_KODE   FRA_TEKST  TIL_KODE  TIL_TEKST  ENDRINGSDATO
+    1      5012  Snillfjord      5055  Heim              21915
+    2      5012  Snillfjord      5056  Hitra             21915
+N = 2
+
+            Dubletter i fra_koden for endringer i katalog 131 for perioden  - . Omkodingsformat lages ikke.             
+
+                                    Dubletter rutet til DUPOUT av PROC SORT NODUPKEY                                    
+
+  Obs  FRA_KODE   FRA_TEKST  TIL_KODE  TIL_TEKST  ENDRINGSDATO
+    1      5012  Snillfjord      5055  Heim              21915
+    2      5012  Snillfjord      5056  Hitra             21915
+N = 2
+
