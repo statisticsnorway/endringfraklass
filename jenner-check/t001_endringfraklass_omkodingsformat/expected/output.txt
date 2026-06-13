@@ -1,0 +1,22 @@
+                                   Fra-kode er blank i katalog 131 for perioden  - .                                    
+
+No observations in dataset.
+
+                                   Til-kode er blank i katalog 131 for perioden  - .                                    
+
+No observations in dataset.
+
+            Dubletter i fra_koden for endringer i katalog 131 for perioden  - . Omkodingsformat lages ikke.             
+
+No observations in dataset.
+
+            Dubletter i fra_koden for endringer i katalog 131 for perioden  - . Omkodingsformat lages ikke.             
+
+                                 Omkoding via formatet $omkode laget av EndringFraKlass                                 
+
+  Obs  KODE  NYTT_KODE
+    1  0101  3001
+    2  0104  3002
+    3  1601  5001
+    4  9999  9999
+

@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-06-14T02:07:41+07:00",
+  "_captured_run_id": "r_019ec2634c7a75519c59ea4f5a1bdd8b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: 2 duplicate observations were output to DUPOUT dataset.",
+    "NOTE: PROC PRINT completed: 2 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

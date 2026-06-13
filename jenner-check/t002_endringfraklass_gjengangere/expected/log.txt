@@ -1,0 +1,109 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA _null_
+
+NOTE: Writing to fileref changes.csv (/tmp/work/changes.csv)
+NOTE: DATA _null_ completed. Output written to fileref changes.csv (/tmp/work/changes.csv)
+NOTE: DATA _NULL_
+
+
+NOTE: Wrote _NULL_ (0 rows, 0 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA _NULL_
+
+
+NOTE: Wrote _NULL_ (0 rows, 0 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Fileref ENDR assigned to changes.csv.
+NOTE: DATA work.Klass_endringer
+
+NOTE: Reading from fileref endr (changes.csv)
+
+NOTE: Read 6 rows from endr.
+NOTE: Wrote work.Klass_endringer (6 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=work.Klass_endringer
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 6 rows from work.Klass_endringer.
+NOTE: Wrote endringer (6 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=work.Klass_endringer
+
+NOTE: PROC PRINT data=work.Klass_endringer
+
+NOTE: DATA _null_
+
+
+NOTE: Read 0 rows from work.Klass_endringer_dubl.
+NOTE: Wrote _null_ (0 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=work.Klass_endringer_dubl
+
+NOTE: PROC SQL 
+
+NOTE: Table endringer_gjengangere created.
+NOTE: PROC SQL statement used.
+NOTE: DATA endringer
+
+NOTE: PROC PRINT data=endringer_gjengangere
+
+NOTE: PROC PRINT completed: 1 observations printed, 5 variables
+NOTE: DATA _null_
+
+
+NOTE: Read 1 rows from endringer_gjengangere.
+NOTE: Wrote _null_ (1 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Fra_dato ikke oppgitt,  er valgt
+NOTE: Til_dato ikke oppgitt,  er valgt
+gjenganger=0 runde=1
+gjenganger=0 runde=1
+NOTE: DATA work.Klass_endringer_format
+
+
+NOTE: Read 6 rows from endringer.
+NOTE: Wrote work.Klass_endringer_format (6 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: CNTLIN: Loaded 6 format entries from work.Klass_endringer_format
+NOTE: PROC DATASETS library=WORK
+
+NOTE: Deleting KLASS_ENDRINGER (memtype=DATA).
+NOTE: 1 dataset(s) deleted.
+NOTE: PROC DATASETS library=WORK
+
+NOTE: Deleting KLASS_ENDRINGER_DUBL (memtype=DATA).
+NOTE: 1 dataset(s) deleted.
+NOTE: PROC DATASETS library=WORK
+
+NOTE: Deleting ENDRINGER (memtype=DATA).
+NOTE: Deleting ENDRINGER_GJENGANGERE (memtype=DATA).
+NOTE: 2 dataset(s) deleted.
+NOTE: DATA demo
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote demo (4 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=demo
+
+NOTE: PROC PRINT completed: 4 observations printed, 2 variables

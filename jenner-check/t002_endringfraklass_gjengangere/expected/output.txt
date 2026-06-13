@@ -1,0 +1,28 @@
+                                   Fra-kode er blank i katalog 131 for perioden  - .                                    
+
+No observations in dataset.
+
+                                   Til-kode er blank i katalog 131 for perioden  - .                                    
+
+No observations in dataset.
+
+            Dubletter i fra_koden for endringer i katalog 131 for perioden  - . Omkodingsformat lages ikke.             
+
+No observations in dataset.
+
+            Dubletter i fra_koden for endringer i katalog 131 for perioden  - . Omkodingsformat lages ikke.             
+
+                                                        Runde 1.                                                        
+
+  Obs  FRA_KODE  FRA_TEKST  TIL_KODE  TIL_TEKST  ENDRINGSDATO
+    1  1567      Rindal     5061      Rindal       2020-01-01
+N = 1
+
+                             Omkoding etter sammenslaaing av flere endringer (gjengangere)                              
+
+  Obs  KODE  NYTT_KODE
+    1  1567  5061
+    2  1539  5061
+    3  1502  1506
+    4  1548  1579
+

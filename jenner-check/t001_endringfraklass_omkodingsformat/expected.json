@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-06-14T02:07:41+07:00",
+  "_captured_run_id": "r_019ec26340167742aca126ceb8e86eff",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 10 rows from endr.",
+    "NOTE: Wrote work.Klass_endringer (9 rows, 5 columns).",
+    "NOTE: CNTLIN: Loaded 9 format entries from work.Klass_endringer_format",
+    "NOTE: PROC PRINT completed: 4 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
